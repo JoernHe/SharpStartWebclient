@@ -61,7 +61,7 @@ public class Program
                 EventUnregister(RegistrationHandle);
             }
 
-            Console.WriteLine("[*] Webclient should be started now");
+            Console.WriteLine("[*] Webclient should be started now, make sure ETW was not patched!");
         }
         else
         {
